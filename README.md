@@ -6,7 +6,7 @@
 
  
 
-:computer: I'm Front-End Developer!
+:computer: I'm Student of information system!
 
 :house_with_garden: I’m from Brazil.
 
