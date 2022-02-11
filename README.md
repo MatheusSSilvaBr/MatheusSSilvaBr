@@ -16,7 +16,7 @@
 
 
 [![Matheus Santos github stats](https://github-readme-stats.vercel.app/api?username=matheussilvabr&show_icons=true&theme=radical&count_private=true&bg_color=30,0d0d0d,191919&title_color=fff&text_color=fff&icon_color=79ff97)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusssilvabr)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusssilvabr&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
  
 
