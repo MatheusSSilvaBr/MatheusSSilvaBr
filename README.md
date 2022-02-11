@@ -14,6 +14,10 @@
 
 :outbox_tray: 2021 Goals: create a new project and find a new job.
 
+
+[![Estatísticas do GitHub do Anurag](https://github-readme-stats.vercel.app/api MatheusSSilvaBr=anuraghazra )](https://github.com/anuraghazra/github-readme-stats)
+
+
  
 
 ## About me
