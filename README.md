@@ -15,7 +15,7 @@
 :outbox_tray: 2021 Goals: create a new project and find a new job.
 
 
-[![Matheus Santos github stats](https://github-readme-stats.vercel.app/api?username=matheusssilvabr)](https://github.com/anuraghazra/github-readme-stats)
+[![Matheus Santos github stats](https://github-readme-stats.vercel.app/api?username=matheusssilvabr&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusssilvabr&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
  
