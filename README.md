@@ -6,13 +6,13 @@
 
  
 
-:computer: I'm Student of information system!
+:computer: I'm Student of Computer Science, focused on web development!
 
 :house_with_garden: I’m from Brazil.
 
 :books: I’m currently learning everything.
 
-:outbox_tray: 2021 Goals: create a new project and find a new job.
+:outbox_tray: 2022 Goals: Master Javascript.
 
 
 [![Matheus Santos github stats](https://github-readme-stats.vercel.app/api?username=matheusssilvabr&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
