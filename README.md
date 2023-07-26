@@ -15,9 +15,7 @@
 :outbox_tray: 2023 Goals: Master Java.
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheusssilvabr&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
- 
 
 ## About me
 
