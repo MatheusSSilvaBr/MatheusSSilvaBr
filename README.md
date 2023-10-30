@@ -12,7 +12,7 @@
 
 :books: I’m currently learning everything.
 
-:outbox_tray: 2023 Goals: Master Java.
+:outbox_tray: 2024 Goals: in progress...
 
 
 
