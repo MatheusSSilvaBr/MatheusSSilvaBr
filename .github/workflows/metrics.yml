@@ -21,7 +21,7 @@ jobs:
         with:
           # ⬇️ OPÇÕES PRINCIPAIS ⬇️
           # Todas as linhas desta seção devem estar perfeitamente alinhadas.
-          user: SEU_USUARIO_AQUI 
+          user: MatheusSSilvaBr 
           filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           config_include_all_commits: true
