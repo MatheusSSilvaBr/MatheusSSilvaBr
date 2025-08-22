@@ -73,4 +73,4 @@ Sou um Desenvolvedor Python e Analista de Sistemas com expertise em arquitetura 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MatheusSSilvaBr&theme=tokyonight" alt="GitHub Streak" />
 </div>
 
-![Minhas Métricas do GitHub](github-metrics.svg)
+<!-- [Minhas Métricas do GitHub](github-metrics.svg) -->
