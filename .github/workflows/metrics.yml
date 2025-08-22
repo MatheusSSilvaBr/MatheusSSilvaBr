@@ -19,19 +19,15 @@ jobs:
       - name: Generate full metrics
         uses: lowlighter/metrics@latest
         with:
-          # Seu nome de usuário do GitHub
-          user: MatheusSSilvaBr 
-          # Nome do arquivo de saída
+          # ⬇️ OPÇÕES PRINCIPAIS ⬇️
+          # Todas as linhas desta seção devem estar perfeitamente alinhadas.
+          user: SEU_USUARIO_AQUI 
           filename: github-metrics.svg
-          # Token para acessar repositórios privados e da organização
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Opções para incluir contribuições privadas e de organizações
           config_include_all_commits: true
           config_private: yes
 
-          # Plugins que você quer usar (sinta-se à vontade para adicionar/remover)
-          # A lista completa está na documentação do projeto
+          # PLUGINS HABILITADOS
           plugins_enabled: >
             activity,
             habits,
@@ -43,21 +39,18 @@ jobs:
             topics,
             organizations
 
-          # Configurações específicas para alguns plugins
+          # ⬇️ CONFIGURAÇÃO DOS PLUGINS ⬇️
+          # Estes blocos também devem estar alinhados com as opções principais acima.
+          # As opções DENTRO de cada plugin (como 'limit') devem ser indentadas mais uma vez.
           plugin_languages:
-            # Esconde linguagens menos usadas
             limit: 8
-            # Conta contribuições de todos os repositórios (públicos e privados)
             sources: github
-            # Esconde linguagens como HTML, CSS se desejar
             hide: >
               html, css, tex, scss
           
           plugin_organizations:
-            # Mostra as 3 organizações onde você mais contribui
             limit: 3
             
           plugin_people:
-            # Mostra pessoas com quem você mais colabora
             limit: 10
             size: 25
