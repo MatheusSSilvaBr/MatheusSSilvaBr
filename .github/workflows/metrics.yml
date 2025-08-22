@@ -1,0 +1,63 @@
+# .github/workflows/metrics.yml
+
+name: GitHub Metrics
+on:
+  # Roda a cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *"
+  # Permite que você rode manualmente pela aba "Actions"
+  workflow_dispatch:
+  # Roda também ao fazer push no branch main
+  push:
+    branches:
+      - "main"
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate full metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Seu nome de usuário do GitHub
+          user: MatheusSSilvaBr 
+          # Nome do arquivo de saída
+          filename: github-metrics.svg
+          # Token para acessar repositórios privados e da organização
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Opções para incluir contribuições privadas e de organizações
+          config_include_all_commits: true
+          config_private: yes
+
+          # Plugins que você quer usar (sinta-se à vontade para adicionar/remover)
+          # A lista completa está na documentação do projeto
+          plugins_enabled: >
+            activity,
+            habits,
+            introduction,
+            languages,
+            lines,
+            projects,
+            people,
+            topics,
+            organizations
+
+          # Configurações específicas para alguns plugins
+          plugin_languages:
+            # Esconde linguagens menos usadas
+            limit: 8
+            # Conta contribuições de todos os repositórios (públicos e privados)
+            sources: github
+            # Esconde linguagens como HTML, CSS se desejar
+            hide: >
+              html, css, tex, scss
+          
+          plugin_organizations:
+            # Mostra as 3 organizações onde você mais contribui
+            limit: 3
+            
+          plugin_people:
+            # Mostra pessoas com quem você mais colabora
+            limit: 10
+            size: 25
